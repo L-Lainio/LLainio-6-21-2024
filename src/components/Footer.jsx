@@ -1,15 +1,7 @@
-// import { useState } from 'react';
-import Projects from './Projects';
+import React from 'react'
 
-function Footer() {
- <Projects />
+export const Footer = () => {
   return (
-    <footer>
-      <p>© 2024</p>
-    </footer>
-  );
-
-
+    <div>Footer</div>
+  )
 }
-
-export default Footer;
