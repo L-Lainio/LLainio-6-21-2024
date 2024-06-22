@@ -1,7 +1,10 @@
+// Corrected export in src/components/Projects.jsx
+
 import React from 'react';
 
-export const Projects = () => {
-  return (
-    <div>Projects</div>
-  );
-};
+function Projects() {
+  // Component implementation
+  return <div>Projects Component</div>;
+}
+
+export default Projects;

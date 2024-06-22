@@ -1,7 +1,10 @@
-import React from 'react'
+// src/components/Profile.jsx
 
-export const Profile = () => {
-  return (
-    <div>Profile</div>
-  )
+import React from 'react';
+
+function Profile() {
+  // Component implementation
+  return <div>Profile Component</div>;
 }
+
+export default Profile;
