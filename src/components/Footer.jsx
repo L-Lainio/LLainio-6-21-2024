@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+export var Footer = function Footer() {
+  return React.createElement(
+    'div',
+    null,
+    'Footer'
+  );
+};

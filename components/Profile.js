@@ -1,9 +1,9 @@
 import React from 'react';
 
-export var Home = function Home() {
+export var Profile = function Profile() {
   return React.createElement(
     'div',
     null,
-    'Home'
+    'Profile'
   );
 };
